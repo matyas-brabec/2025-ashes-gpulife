@@ -1,0 +1,266 @@
+# THIS FILE WAS CREATED MANUALLY
+
+exp-0
+next-experiment
+Hello
+Experiment Parameters:
+  algorithm_name: an5d
+  grid_dimensions: 2048x2048
+  iterations: 1024
+
+Warming up... 1 / 5
+Warming up... 2 / 5
+Warming up... 3 / 5
+Warming up... 4 / 5
+Warming up... 5 / 5
+
+Running experiment...        an5d
+
+Measurement round 1 / 10
+Time report:
+  run:                       28  ms
+   performed iters:  1024
+
+Measurement round 2 / 10
+Time report:
+  run:                       28  ms
+   performed iters:  1024
+
+Measurement round 3 / 10
+Time report:
+  run:                       28  ms
+   performed iters:  1024
+
+Measurement round 4 / 10
+Time report:
+  run:                        28 ms
+   performed iters:  1024
+
+Measurement round 5 / 10
+Time report:
+  run:                        28 ms
+   performed iters:  1024
+
+Measurement round 6 / 10
+Time report:
+  run:                       28  ms
+   performed iters:  1024
+
+Measurement round 7 / 10
+Time report:
+  run:                       28  ms
+   performed iters:  1024
+
+Measurement round 8 / 10
+Time report:
+  run:                       28  ms
+   performed iters:  1024
+
+Measurement round 9 / 10
+Time report:
+  run:                        28 ms
+   performed iters:  1024
+
+Measurement round 5 / 10
+Time report:
+  run:                        28 ms
+   performed iters:  1024
+
+exp-1
+next-experiment
+Hello
+Experiment Parameters:
+  algorithm_name: an5d
+  grid_dimensions: 4096x4096
+  iterations: 1024
+
+Warming up... 1 / 5
+Warming up... 2 / 5
+Warming up... 3 / 5
+Warming up... 4 / 5
+Warming up... 5 / 5
+
+Running experiment...        an5d
+
+Measurement round 1 / 10
+Time report:
+  run:                       83  ms
+   performed iters:  1024
+
+Measurement round 2 / 10
+Time report:
+  run:                        83 ms
+   performed iters:  1024
+
+Measurement round 3 / 10
+Time report:
+  run:                        83 ms
+   performed iters:  1024
+
+Measurement round 4 / 10
+Time report:
+  run:                        83 ms
+   performed iters:  1024
+
+Measurement round 5 / 10
+Time report:
+  run:                        83 ms
+   performed iters:  1024
+
+Measurement round 6 / 10
+Time report:
+  run:                       83  ms
+   performed iters:  1024
+
+Measurement round 7 / 10
+Time report:
+  run:                        82 ms
+   performed iters:  1024
+
+Measurement round 8 / 10
+Time report:
+  run:                        83 ms
+   performed iters:  1024
+
+Measurement round 9 / 10
+Time report:
+  run:                        83 ms
+   performed iters:  1024
+
+Measurement round 10 / 10
+Time report:
+  run:                        83 ms
+   performed iters:  1024
+
+exp-2
+next-experiment
+Hello
+Experiment Parameters:
+  algorithm_name: an5d
+  grid_dimensions: 8192x8192
+  iterations: 1024
+
+Warming up... 1 / 5
+Warming up... 2 / 5
+Warming up... 3 / 5
+Warming up... 4 / 5
+Warming up... 5 / 5
+
+Running experiment...        an5d
+
+Measurement round 1 / 10
+Time report:
+  run:                        320 ms
+   performed iters:  1024
+
+Measurement round 2 / 10
+Time report:
+  run:                        320 ms
+   performed iters:  1024
+
+Measurement round 3 / 10
+Time report:
+  run:                        320 ms
+   performed iters:  1024
+
+Measurement round 4 / 10
+Time report:
+  run:                        320 ms
+   performed iters:  1024
+
+Measurement round 5 / 10
+Time report:
+  run:                        319 ms
+   performed iters:  1024
+
+Measurement round 6 / 10
+Time report:
+  run:                        320 ms
+   performed iters:  1024
+
+Measurement round 7 / 10
+Time report:
+  run:                        320 ms
+   performed iters:  1024
+
+Measurement round 8 / 10
+Time report:
+  run:                        320 ms
+   performed iters:  1024
+
+Measurement round 9 / 10
+Time report:
+  run:                        319 ms
+   performed iters:  1024
+
+Measurement round 10 / 10
+Time report:
+  run:                        319 ms
+   performed iters:  1024
+
+exp-3
+next-experiment
+Hello
+Experiment Parameters:
+  algorithm_name: an5d
+  grid_dimensions: 16384x16384
+  iterations: 1024
+
+Warming up... 1 / 5
+Warming up... 2 / 5
+Warming up... 3 / 5
+Warming up... 4 / 5
+Warming up... 5 / 5
+
+Running experiment...        an5d
+
+Measurement round 1 / 10
+Time report:
+  run:                       1250  ms
+   performed iters:  1024
+
+Measurement round 2 / 10
+Time report:
+  run:                        1250 ms
+   performed iters:  1024
+
+Measurement round 3 / 10
+Time report:
+  run:                        1249 ms
+   performed iters:  1024
+
+Measurement round 4 / 10
+Time report:
+  run:                        1250 ms
+   performed iters:  1024
+
+Measurement round 5 / 10
+Time report:
+  run:                        1250 ms
+   performed iters:  1024
+
+Measurement round 6 / 10
+Time report:
+  run:                        1250 ms
+   performed iters:  1024
+
+Measurement round 7 / 10
+Time report:
+  run:                        1250 ms
+   performed iters:  1024
+
+Measurement round 8 / 10
+Time report:
+  run:                        1250 ms
+   performed iters:  1024
+
+Measurement round 9 / 10
+Time report:
+  run:                        1249 ms
+   performed iters:  1024
+
+Measurement round 10 / 10
+Time report:
+  run:                        1250 ms
+   performed iters:  1024
+
