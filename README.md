@@ -68,7 +68,16 @@ To replicate our experiments exactly, run the script [./cluster-experiments/run-
 $> cd cluster-experiments  # The working directory must be this folder
 $> mkdir -p my-measurements
 $> ./run-all-experiments.sh > my-measurements/all-experiments.out
-$> python ./result_analysis.py  # You will need to adjust control variables as discussed
+$> python3 ./result_analysis.py  # You will need to adjust control variables as discussed
+```
+
+If your python environment does not have the required package `matplotlib`, you can install it into a virtual environment:  
+
+```bash
+$> python3 -m venv .venv # Create a virtual environment
+$> source .venv/bin/activate # Activate the virtual environment
+$> python3 -m pip install matplotlib # Install the required package
+$> python3 ./result_analysis.py # Run the script in the virtual environment
 ```
 
 ## Contact us
