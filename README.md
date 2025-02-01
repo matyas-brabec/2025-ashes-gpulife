@@ -12,7 +12,7 @@ This repository is associated with the following paper:
 
 ## About  
 
-Iterative stencil loops (ISLs) are widely used in simulations, image processing, and cellular automata. This project focuses on optimizing Conway's Game of Life on GPUs. While existing implementations are efficient, we identified areas for significant improvement. Our approach minimizes unnecessary computations by skipping unchanged grid regions and employs a more efficient bit-wise encoding. The result is a **22.8× speedup** over a basic GPU implementation, **7.5× faster** performance compared to the packet-coding method, and **19.1× faster** execution than AN5D-generated code.  
+Iterative stencil loops (ISLs) are widely used in simulations, image processing, and cellular automata. This project focuses on optimizing Conway's Game of Life on GPUs. While existing implementations are efficient, we identified areas for significant improvement. Our approach minimizes unnecessary computations by skipping unchanged grid regions and employs a more efficient bitwise encoding. The result is a **22.8× speedup** over a basic GPU implementation, **7.5× faster** performance compared to the packet-coding method, and **19.1× faster** execution than AN5D-generated code.  
 
 ## Index  
 
@@ -21,7 +21,7 @@ The paper discusses several optimization techniques. Below is an index to help n
 | Algorithm | Description | Link |  
 |-----------|-------------|------|  
 | **Baselines** | A straightforward Game of Life implementation, with `int` and `char` variants passed as template parameters. | [Kernel](./src/algorithms/cuda-naive/cuda_naive_kernel.cu#L22) |  
-| **Linear Bitwise Optimization** | CUDA kernel for bit-wise encoded approaches. | [Kernel](./src/algorithms/cuda-naive-bitwise/cuda_naive_bitwise_kernel.cu#L33) |  
+| **Linear Bitwise Optimization** | CUDA kernel for bitwise encoded approaches. | [Kernel](./src/algorithms/cuda-naive-bitwise/cuda_naive_bitwise_kernel.cu#L33) |  
 | | Python script for generating macros. | [Script](./src/algorithms/_shared/bitwise/bitwise-ops/python-macro-generators/cols_macro_gen.py) |  
 | | Generated macros. | [Macros](./src/algorithms/_shared/bitwise/bitwise-ops/macro-cols.hpp) |  
 | | Templated implementation (on CPUs only) | [Code](./src/algorithms/_shared/bitwise/bitwise-ops/templated-cols.hpp#L31)|
@@ -71,7 +71,7 @@ $> ./run-all-experiments.sh > my-measurements/all-experiments.out
 $> python3 ./result_analysis.py  # You will need to adjust control variables as discussed
 ```
 
-If your python environment does not have the required package `matplotlib`, you can install it into a virtual environment:  
+If your Python environment does not have the required package `matplotlib`, you can install it into a virtual environment:  
 
 ```bash
 $> python3 -m venv .venv # Create a virtual environment
