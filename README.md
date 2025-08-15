@@ -1,11 +1,23 @@
 # Slaying a Life 🔥🦠
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENCE) [![doi](https://img.shields.io/badge/DOI-TODO-blue)](todo)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENCE) [![doi](https://img.shields.io/badge/DOI-10.1109/IPDPSW66978.2025.00010-blue)](https://doi.org/10.1109/IPDPSW66978.2025.00010)
 
 This repository is associated with the following paper:  
 
-```
-@article { TODO }
+```bibtex
+@inproceedings{brabec2025slaying,
+  author    = {Maty{\'a}{\v{s}} Brabec and Ji{\v{r}}{\'{\i}} Klepl and Martin Kruli{\v{s}}},
+  title     = {Slaying a Life: Optimizing {GPU}-accelerated {Game of Life} Stencil},
+  booktitle = {2025 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},
+  year      = {2025},
+  month     = jun,
+  pages     = {15--24},
+  publisher = {IEEE},
+  address   = {Milan, Italy},
+  doi       = {10.1109/IPDPSW66978.2025.00010},
+  url       = {https://ieeexplore.ieee.org/document/11106100},
+  issn      = {2995-066X}
+}
 ```
 
 ![Glider Gun](./glider-gun.gif)
