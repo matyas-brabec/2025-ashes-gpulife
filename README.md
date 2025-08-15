@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENCE) [![doi](https://img.shields.io/badge/DOI-10.1109/IPDPSW66978.2025.00010-blue)](https://doi.org/10.1109/IPDPSW66978.2025.00010)
 
-This repository is associated with the following paper:  
+This repository is associated with the paper [Slaying a Life: Optimizing GPU-accelerated Game of Life Stencil](https://ieeexplore.ieee.org/document/11106100):
 
 ```bibtex
 @inproceedings{brabec2025slaying,
